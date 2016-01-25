@@ -4,4 +4,5 @@ var email = document.getElementById('button-yellow');
 
 email.addEventListener('click', function(e) {
   prompt("Please enter your Email");
+  email.innerHTML = "Thanks for your email!";
 })
